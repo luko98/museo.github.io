@@ -1,0 +1,317 @@
+
+body {
+  font-family: 'Archivo', sans-serif;
+  background-color: #303234;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+header {
+  background-color: #484b4e;
+}
+
+section p {
+  color: #ffffff;
+}
+
+
+nav {
+  background-color: #7d7c7c;
+}
+
+nav .nav-link {
+  color: #000000;
+  font-size: 15pt;
+  font-weight: bold;
+}
+
+nav .nav-link:hover {
+  color: #ffffff;
+}
+
+.form-control {
+  border-width: 3px;
+  
+}
+
+.form-control:hover {
+  border-color: #F3ECE1;
+}
+
+.dropdown-item {
+  color: #feda3b;
+}
+
+.dropdown-item:hover {
+  color: #1F2124;
+}
+
+.display-1 {
+  color: #F3ECE1;
+  font-weight: 700;
+}
+
+.display-2 {
+  color: #F3ECE1;
+  font-weight: 700;
+}
+
+.display-3 {
+  color: #ffffff;
+  font-family: 'Lora', serif;
+}
+
+.display-4 {
+  color: #1F2124;
+}
+
+span {
+  color: #1F2124;
+}
+
+.btn {
+  font-family: 'Archivo', sans-serif;
+  background-color: #7d7c7c;
+  color: #000000;
+
+}
+
+.btn:hover {
+  background-color: #aeaeae;
+  color: #1F2124;
+
+}
+
+#carousel p{
+  font-weight: bold;
+  color: #F3ECE1;
+}
+
+h3 {
+  background-color: #F3ECE1;
+  color: #1F2124;
+  font-style: italic;
+}
+
+.subtitulos {
+  color: #F3ECE1;
+  font-size: 40px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.carousel-indicators button:hover {
+  background-color: #F26C3F;
+}
+
+.card-text {
+  text-align: left;
+}
+
+.about-us {
+  font-size: 20px;
+}
+
+.accordion-button {
+  background-color: #1F2124;
+  color: #F3ECE1;
+}
+
+.accordion-button::after {
+  background-color: #FE6C3B;
+}
+
+.accordion-item {
+  background-color: #F3ECE1;
+}
+
+
+.card-direction {
+  background-color: #CEDBF1;
+}
+
+.card-text-direction {
+  color: #1F2124
+}
+
+.card-title-direction {
+  color: #1F2124;
+}
+
+
+
+#dali .card-cover {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("fotos/la-persistencia-de-la-memoria-sa.jpg");
+}
+
+#dali .card-cover:hover {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("fotos/la-persistencia-de-la-memoria-sa\ duo.jpg");
+}
+
+
+
+#frida .card-cover {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("fotos/autorretrato-con-collar-de-espinas.jpg");
+}
+
+#frida .card-cover:hover {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("fotos/autorretrato-con-collar-de-espinas\ duo.jpg");
+}
+
+#hopper .card-cover {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("fotos/hopper2.jpg");
+}
+
+#hopper .card-cover:hover {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("fotos/hopper2\ duo.jpg");
+}
+
+#takashi .card-cover {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("fotos/Q5FFDP73LVGVFDESIWAMI3GODM.jpg");
+}
+
+#takashi .card-cover:hover {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("fotos/Q5FFDP73LVGVFDESIWAMI3GODM\ duo.jpg");
+}
+
+
+
+#eventos h5 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  font-size: x-large;
+  color: #290a00;
+}
+
+
+#galeria h4 {
+  text-shadow: #1F2124 5px 0 6px;
+}
+
+#galeria .subtitulos {
+  color: #7d7c7c;
+}
+
+#testimonios .subtitulos {
+  color: #7d7c7c;
+}
+
+#testimonios h5 {
+  color: #7d7c7c;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  font-size: x-large;
+}
+
+#testimonios p {
+  color: #ffffff;
+  font-family: 'Raleway', sans-serif;
+}
+
+#testimonios .img-thumbnail {
+  background-color: #7d7c7c
+}
+
+#Contacto {
+  background-color: #7d7c7c;
+}
+
+#redes ul li {
+  list-style-type: none;
+  margin: 10px;
+}
+
+#redes ul li a {
+  color: white;
+}
+
+#redes ul li a:hover {
+  color: #1F2124;
+}
+
+
+/* COLECCIONES.HTML */
+
+#colecciones-pag h1 {
+  color: #7d7c7c;
+
+}
+
+#colecciones-pag h2 {
+  font-size: x-large;
+  font-weight: lighter;
+  color: #1F2124;
+
+}
+
+#colecciones-pag li {
+  overflow: hidden;
+  transition: .2s ease-in;
+}
+
+#colecciones-pag li:hover {
+  transform: scale(1.1);
+  transition: .4s ease-in-out;
+}
+
+#colecciones-pag p {
+  font-family: 'Raleway', sans-serif;
+}
+
+#colecciones-pag h3 {
+  font-style: normal;
+  font-weight: bold;
+}
+
+/* COLECCIONES FIN */
+
+/* TIENDA.HTML */
+
+#offcanvasRightLabel {
+  font-size: x-large;
+}
+
+/* FIN TIENDA.HTML */
+
+
+/* CONTACTO.HTML */
+
+.card-direction {
+  background-color: #bb3131;
+}
+
+.card-text-direction {
+  color: #1F2124;
+}
+
+.card-title-direction {
+  font-family: 'Raleway', sans-serif;
+  font-size: 35px;
+  color: #1F2124;
+}
+
+.map-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+
+.map-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+#visitas {
+  font-size: x-large;
+  font-weight: lighter;
+  color: #1F2124;
+}
+
+#visitas-title {
+  color: #7d7c7c;
+}
+
+/* FIN CONTACTO.HTML */
